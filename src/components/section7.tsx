@@ -1,4 +1,4 @@
-import bgImage from "../assets/10.jpeg"; // Apni image ka path lagao
+import bgImage from "../assets/10.jpeg"; 
 
 export default function HeroSection() {
   return (
