@@ -2,7 +2,7 @@ import bgImage from "../assets/10.jpeg"; // Apni image ka path lagao
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full h-screen">
+    <section className="relative w-full h-[85vh] md:h-screen">
       {/* Background Image */}
       <img
         src={bgImage}
@@ -14,7 +14,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-black/30"></div>
 
       {/* Content */}
-      <div className="absolute inset-0 flex flex-col justify-center px-6 md:px-20  text-white">
+      <div className="absolute inset-0 flex flex-col justify-center px-6 md:px-20 text-white">
         <div className="max-w-md 
           text-center md:text-center lg:text-left   /* Tab & Mobile Center, Desktop Left */
           mx-auto lg:mx-0">  {/* Mobile & Tab Center, Desktop Left */}
